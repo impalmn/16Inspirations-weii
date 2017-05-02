@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>16 INSPIRATIONS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Itim">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  background-image: url(".jpg");
+  background-size: cover;
+}
+body,h1,h2 {font-family: "Raleway", sans-serif}
+h3,h4,h5,h6,p {font-family: "Itim", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+</head>
+
+<body>
+
+  <!--Responsive Nav bar (Fixed on top)-->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-center w3-padding">
+    <a href="home.html" class="w3-bar-item w3-button w3-round"><i class="fa fa-home"></i><b> HOME<b></a>
+    <a href="psu.html" class="w3-bar-item w3-button w3-round"><i class="fa fa-graduation-cap"></i><b> PSU<b></a>
+    <a href="16perfectmen.html" class="w3-bar-item w3-button w3-round w3-hover-red"><i class="fa fa-heart"></i><b> 16 PERFECT MEN<b></a>
+    <a href="member.html" class="w3-bar-item w3-button w3-round"><i class="fa fa-user"></i><b> MEMBER<b></a>
+    </div>
+  </div>
+
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+    <img class="w3-image" src="main_weii.jpg" alt="Weii" width="1500" height="800">
+    <div class="w3-display-middle w3-padding-xlarge w3-wide w3-text-black" style="margin-top:50px">
+      <div class="w3-panel w3-border-top w3-border-bottom w3-border-black">
+      <h1 class="w3-hide-medium w3-hide-small w3-jumbo w3-text-black" style="text-shadow:1px 1px 1px">WEII</h1>
+      <h2 class="w3-hide-medium w3-hide-small w3-text-red" style="text-shadow:1px 1px 3px">ENGINEERING</h2>
+    </div>
+  </header>
+
+  <!-- About -->
+<div class="w3-container w3-padding-32" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-black"><b>นายธนพงศ์ อย่างเฒ่า ( เหว่ย )</b></h1>
+    <h2 class="w3-center w3-text-black">คณะวิศวกรรมศาสตร์</h2>
+    <h2 class="w3-center w3-text-black">ภาควิศวกรรมอุตสาหกรรม</h2>
+
+  <!-- ???? -->
+  <div class="w3-container w3-center">
+  <h2>Active Tabs</h2>
+  <p>To highlight the current tab/page the user is on, add a color class, and use JavaScript to update the active link.</p>
+</div>
+
+  <!-- bar -->
+  <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-red" style="width:50%" onclick="openCity(event,'Photo')">PHOTO</button>
+    <button class="w3-bar-item w3-button tablink" style="width:50%" onclick="openCity(event,'Video')">VIDEO</button>
+  </div>
+
+
+  <!-- Photo grid (modal) -->
+  <div id="Photo" class="w3-container w3-padding-32 w3-border city">
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container">
+        <img src="weii1.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii2.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii3.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+    </div>
+    <br>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container">
+        <img src="weii4.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii5.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii6.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+    </div>
+    <br>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container">
+        <img src="weii7.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii8.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii9.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+    </div>
+    <br>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container">
+        <img src="weii10.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii11.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+      <div class="w3-third w3-container">
+        <img src="weii12.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- Video grid (modal) -->
+  <div id="Video" class="w3-container w3-center w3-border city w3-padding-32" style="display:none">
+    <object width='560' height='315'>
+      <param name='movie' value='https://www.youtube.com/v/FOHmwsPON5g'></param>
+      <param name='wmode' value='transparent'></param>
+      <embed src='https://www.youtube.com/v/FOHmwsPON5g' type='application/x-shockwave-flash' wmode='transparent' width='560' height='315'>
+      </embed>
+    </object>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom  w3-center w3-transparent w3-padding-32">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+
+
+  </div>
+
+
+  </div>
+  <br>
+
+  <!--button-->
+  <div class="w3-container w3-center">
+  <a href="16perfectmen.html" class="w3-button w3-circle w3-black w3-xlarge"><i class="fa fa-arrow-left"></i></a>
+  </div>
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+
+</body>
+</html>
